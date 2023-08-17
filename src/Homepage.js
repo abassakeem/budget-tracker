@@ -10,8 +10,9 @@ export default function Homepage() {
             <Row>
                 <Col className='d-flex align-items-center justify-content-center'>
                 <div className='text-center '>
-                    <h1>Abass' Budget App</h1>
-                    <Link to="/create_budget"><Button variant="outline-primary">Create a budget</Button></Link>
+                    <h1 className='mb-3'>Abass'<span className='text-primary'> Budget</span> App</h1>
+                    <Link to="/create_budget" className='text-center'><Button variant="outline-primary text-center">Create a budget</Button></Link>
+                        <p className='mt-3'>Budget Simplified!</p>
                     </div>
                 </Col>
                 <Col>

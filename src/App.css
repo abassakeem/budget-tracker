@@ -1,13 +1,14 @@
 .color{
     background-color: #000;
-    padding: 5px 15px;
+    padding: 5px 10px;
     height: 1px;
     width: 2px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 100px;
   }
   .color-guide {
     margin-bottom: 20px;
+    font-size: 8px;
   }
 
 .color-guide-1 .color{
@@ -21,4 +22,8 @@
   }
 .color-guide-4 .color{
      background-color: #198754;
+  }
+
+  body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
   }

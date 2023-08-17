@@ -47,22 +47,23 @@ function App() {
         <div className="color-guide-container d-flex justify-content-around">
           <div className="color-guide color-guide-1 ">
             <span className="color"></span>
-            <span>Overspend</span>
+            <span>Overbudget</span>
           </div>
           <div className="color-guide color-guide-2">
             <span className="color"></span>
-            <span>average spend</span>
+            <span>Typical Spending</span>
           </div>
           <div className="color-guide color-guide-3">
             <span className="color"> </span>
-            <span> low spending</span>
+            <span> Minimal Expenses</span>
           </div>
           <div className="color-guide color-guide-4">
             <span className="color"> </span>
-            <span> No spending</span>
+            <span> No Outlay</span>
           </div>
         </div>
-        <Col><TotalBudgetCard />
+        <Col className="d-flex flex-column ">
+        <TotalBudgetCard />
         </Col>
         
         <Col
