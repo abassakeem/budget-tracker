@@ -1,0 +1,43 @@
+.profile-page{
+    background-color: #fff;
+    height: 100vh;
+}
+.profile {
+    text-align: center;
+  }
+  
+  .profile-header {
+   
+    padding: 20px;
+    color: #000;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .resizable-box {
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    cursor: grab;
+  }
+  
+  .modal-dialog {
+    max-width: 400px;
+  }
+  .name-input{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 10px;
+    margin-right: 4px;
+    border: 1px solid #000;
+  }
+  .change-button {
+    font-size: 8px;
+  } 
+  .change-button:hover {
+   background-color: rgba(0,0, 0, 0.7);
+  } 
